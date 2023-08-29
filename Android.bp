@@ -3,6 +3,11 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/qcom-caf/msm8996",
+        "hardware/xiaomi",
+        "vendor/xiaomi/msm8953-common",
+    ],
 }
 
 cc_prebuilt_library_shared {
