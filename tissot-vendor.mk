@@ -337,7 +337,7 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
-    consumerir.default \
+    consumerir.msm8953 \
     fingerprint.fpc.default \
     gf_fingerprint.goodix.default \
     libgf_algo \
