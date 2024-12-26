@@ -8176,44 +8176,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgoodixfingerprintd_binder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgoodixfingerprintd_binder.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "liblog",
-                "libhardware",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libdl",
-                "libcrypto",
-                "libc",
-                "libbase",
-                "libgf_hal",
-                "libgf_algo",
-                "libgf_ca",
-                "libQSEEComAPI",
-                "libprotobuf-cpp-lite",
-                "liblzma",
-                "libm",
-                "libstdc++_vendor",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvendor.goodix.hardware.fingerprint@1.0-service",
     owner: "xiaomi",
     strip: {

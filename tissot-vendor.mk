@@ -343,7 +343,6 @@ PRODUCT_PACKAGES += \
     libgf_algo \
     libgf_ca \
     libgf_hal \
-    libgoodixfingerprintd_binder \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     com.fingerprints.extension \
