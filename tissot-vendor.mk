@@ -343,5 +343,4 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libvendor.goodix.hardware.fingerprint@1.0-service \
-    libvendor.goodix.hardware.fingerprint@1.0 \
     mm-qcamera-daemon
