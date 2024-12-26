@@ -339,7 +339,6 @@ PRODUCT_PACKAGES += \
     consumerir.msm8953 \
     fingerprint.fpc.default \
     gf_fingerprint.goodix.default \
-    libgf_algo \
     libgf_ca \
     libgf_hal \
     libvendor.goodix.hardware.fingerprint@1.0-service \

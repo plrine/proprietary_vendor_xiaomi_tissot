@@ -8093,32 +8093,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgf_algo",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgf_algo.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libstdc++_vendor",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libgf_ca",
     owner: "xiaomi",
     strip: {
@@ -8132,11 +8106,10 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libQSEEComAPI",
                 "libhardware",
-                "liblog",
                 "libc",
                 "libm",
-                "libstdc++_vendor",
                 "libdl",
+                "liblog",
             ],
         },
     },
@@ -8157,16 +8130,13 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libgf_hal.so",
             ],
             shared_libs: [
-                "libgf_algo",
                 "libcutils",
-                "libbinder",
                 "libutils",
                 "libgf_ca",
-                "liblog",
                 "libc",
                 "libm",
-                "libstdc++_vendor",
                 "libdl",
+                "liblog",
             ],
         },
     },
