@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_ofilm_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml
 
 PRODUCT_PACKAGES += \
     gatekeeper.msm8953 \
@@ -345,5 +344,4 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
-    com.fingerprints.extension \
     mm-qcamera-daemon
