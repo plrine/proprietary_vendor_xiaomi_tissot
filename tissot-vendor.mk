@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     libactuator_dw9763_ofilm_ov13880 \
     libactuator_dw9763_ov12a10 \
     libactuator_dw9763_ov13880 \
+    libchromaflash \
     libchromatix_csidtg_common \
     libchromatix_csidtg_cpp_preview \
     libchromatix_csidtg_postproc \
@@ -244,6 +245,8 @@ PRODUCT_PACKAGES += \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
+    libllvd_smore \
+    libllvd_sw_tnr \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
     libmmcamera2_dcrf \
@@ -340,10 +343,14 @@ PRODUCT_PACKAGES += \
     libmmjpeg \
     libmmqjpeg_codec \
     libmmqjpegdma \
+    liboptizoom \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
+    libseemore \
+    libtrueportrait \
+    libubifocus \
     consumerir.msm8953 \
     fingerprint.fpc.default \
     gf_fingerprint.goodix.default \
