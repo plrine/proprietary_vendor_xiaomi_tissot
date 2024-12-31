@@ -264,6 +264,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_arc_ofilm_ov13880_eeprom \
     libmmcamera_arc_ov12a10_eeprom \
     libmmcamera_arc_ov13880_eeprom \
+    libmmcamera_chromaflash_lib \
     libmmcamera_csidtg \
     libmmcamera_dbg \
     libmmcamera_dcrf_lib \
@@ -310,7 +311,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_isp_sub_module \
     libmmcamera_isp_template \
     libmmcamera_isp_wb40 \
+    libmmcamera_llvd \
     libmmcamera_ofilm_s5k5e8_eeprom \
+    libmmcamera_optizoom_lib \
     libmmcamera_ov12a10 \
     libmmcamera_ov12a10_eeprom \
     libmmcamera_ov13880 \
@@ -320,15 +323,20 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdaf \
     libmmcamera_pdafcamif \
     libmmcamera_ppbase_module \
+    libmmcamera_ppeiscore \
     libmmcamera_qtech_ov5675_eeprom \
     libmmcamera_quadracfa \
     libmmcamera_s5k5e8_ofilm \
+    libmmcamera_stillmore_lib \
     libmmcamera_sw2d_lib \
+    libmmcamera_sw_tnr \
     libmmcamera_thread_services \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
+    libmmcamera_trueportrait_lib \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
+    libmmcamera_ubifocus_lib \
     libmmjpeg \
     libmmqjpeg_codec \
     libmmqjpegdma \
