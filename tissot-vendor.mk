@@ -25,11 +25,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_ofilm_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 
 PRODUCT_PACKAGES += \
-    gatekeeper.msm8953 \
-    keystore.msm8953 \
     libactuator_dw9763 \
     libactuator_dw9763_ofilm_ov12a10 \
     libactuator_dw9763_ofilm_ov13880 \
@@ -336,11 +336,18 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
+    android.hardware.gatekeeper@1.0-impl-qti \
     consumerir.msm8953 \
     fingerprint.fpc.default \
     gf_fingerprint.goodix.default \
     libgf_algo \
     libgf_ca \
     libgf_hal \
+    libkeymasterdeviceutils \
+    libkeymasterutils \
+    libqcbor \
+    libqtikeymaster4 \
     libvendor.goodix.hardware.fingerprint@1.0-service \
+    android.hardware.gatekeeper@1.0-service-qti \
+    android.hardware.keymaster@4.0-service-qti \
     mm-qcamera-daemon
